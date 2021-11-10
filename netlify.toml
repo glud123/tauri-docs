@@ -8,11 +8,11 @@
 #   status = 302  
 #   conditions = {Country = ["BR"]}
 
-# [[redirects]]
-#   from = "/*"  
-#   to = "/zh-hans/:splat"
-#   status = 302  
-#   conditions = {Country = ["CN"]}
+ [[redirects]]
+   from = "/*"  
+   to = "/zh-hans/:splat"
+   status = 302  
+   conditions = {Country = ["CN"]}
 
 # [[redirects]]
 #   from = "/*"  
@@ -32,8 +32,8 @@
 #   status = 302  
 #   conditions = {Country = ["FR"]}
 
-[[redirects]]
-  from = "/*"
-  to = "/en/:splat"
-  status = 301
+# [[redirects]]
+#  from = "/*"
+#  to = "/en/:splat"
+#  status = 301
 
